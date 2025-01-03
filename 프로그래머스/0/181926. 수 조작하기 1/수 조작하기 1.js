@@ -1,5 +1,4 @@
 function solution(n, control) {
-    var result = 0;
    for(let i = 0; i < control.length; i++) {
        if(control[i] == "w") {
         n += 1;
@@ -11,5 +10,5 @@ function solution(n, control) {
       n -= 10;
     }
    }
-       return n+result;
+       return n;
 }
