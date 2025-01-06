@@ -1,8 +1,8 @@
 function solution(number) {
-   const arr = number.split("") // 문자열을 배열로 변환
+   const arr = number.split("");
    var sum = 0;
    for(let i = 0; i<number.length; i++) {
-        sum +=parseInt(arr[i]) // parseInt = 숫자로 변환 
+        sum +=parseInt(arr[i])
    }
     return sum % 9
 }
